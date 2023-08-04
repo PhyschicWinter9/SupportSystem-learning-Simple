@@ -7,6 +7,12 @@
     width: 60%;
     height: 100vh;
     padding: 16px 16px 0px 16px;
+    /* Responsive Mobie */
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0px;
+        height: 50vh;
+    }
 }
 
 .course-right-box{
@@ -18,6 +24,14 @@
     width: 40%;
     height: 100vh;
     padding: 16px 16px 0px 16px;
+    /* Responsive Mobie */
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 0px;
+        height: 50vh;
+        justify-items: center;
+    }
+
 }
 
 /* Button */
@@ -62,6 +76,14 @@
     justify-content: center;
     gap: 26px;
     width: 100%;
+    /* Responsive Mobie */
+    @media (max-width: 768px) {
+        width: 100%;
+        padding: 16px;
+        height: 50vh;
+        justify-items: center;
+        align-items: center;
+    }
 }
 
 
